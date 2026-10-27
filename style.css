@@ -1,1 +1,78 @@
-    
+/*გვერდის ფონი*/
+body {
+  background-color: #0b1220;
+  color: #cbd5e1;
+  font-family: 'Noto Sans Georgian', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
+/*მთავარი სათაური — სახელი და გვარი*/
+.cv-name {
+  background-color: #101b2e;
+  color: #f8fafc;
+  font-family: 'Noto Sans Georgian', 'DejaVu Sans', Arial, sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  text-transform: none;
+}
+/*სექციების სათაურები — ჩემ შესახებ, ტექნიკური უნარები, პროექტები*/
+h2 {
+  background-color: #152238;
+  font-size: 26px;
+  color: #d4af37;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  text-decoration: none;
+  font-style: normal;
+  text-transform: none;
+}
+/*ქვესათაურები — პროექტის სახელი, სამუშაო პოზიცია*/
+h3 {
+  background-color: #152238;
+  font-size: 20px;
+  font-weight: 600;
+  color: #f8fafc;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+/*ძირითადი ტექსტი და ჩამონათვალი*/
+p,
+ol,
+ul,
+li {
+  background-color: #152238;
+  font-size: 16px;
+  color: #cbd5e1;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
+
+/*ჩვეულებრივი ბმულები — GitHub და ელფოსტა*/
+a {
+  background-color: #00000000;
+  color: #d4af37;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #080e19;
+  color: #94a3b8;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
