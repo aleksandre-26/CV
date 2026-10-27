@@ -1,3 +1,4 @@
+/* ქართული ფონტი */
 @font-face {
   font-family: 'MT Mchedlidze';
   src: url('./fonts/mt_mchedlidze1.ttf') format('truetype');
@@ -5,8 +6,8 @@
   font-style: normal;
   font-display: swap;
 }
-
-/*გვერდის ფონი*/
+/*https://fonts.ge/font/500?lang=en ფონტის ლინკი  */
+/* გვერდის ფონი და ძირითადი ტექსტი */
 body {
   background-color: #0b1220;
   color: #cbd5e1;
@@ -14,12 +15,11 @@ body {
   font-size: 16px;
   font-weight: 400;
   text-align: left;
-  font-style: normal;
-  text-transform: none;
   line-height: 26px;
   letter-spacing: 0.2px;
 }
-/*მთავარი სათაური — სახელი და გვარი*/
+
+/* მთავარი სათაური — სახელი და გვარი */
 .cv-name {
   background-color: #101b2e;
   color: #f8fafc;
@@ -28,52 +28,51 @@ body {
   line-height: 54px;
   letter-spacing: 0.5px;
   text-align: center;
-  text-decoration: none;
-  font-style: normal;
-  text-transform: none;
 }
-/*სექციების სათაურები — ჩემ შესახებ, ტექნიკური უნარები, პროექტები*/
+
+/* სექციების სათაურები */
 h2 {
   background-color: #152238;
-  font-size: 26px;
   color: #d4af37;
+  font-size: 26px;
   line-height: 36px;
   letter-spacing: 0.3px;
   text-align: left;
-  text-decoration: none;
-  font-style: normal;
-  text-transform: none;
 }
-/*ქვესათაურები — პროექტის სახელი, სამუშაო პოზიცია*/
+
+/* ქვესათაურები — პროექტის სახელი, სამუშაო პოზიცია */
 h3 {
   background-color: #152238;
+  color: #f8fafc;
   font-size: 20px;
   font-weight: 600;
-  color: #f8fafc;
   line-height: 30px;
   letter-spacing: 0.2px;
 }
-/*ძირითადი ტექსტი და ჩამონათვალი*/
-p,
+
+/* ძირითადი ტექსტი და ჩამონათვალი */
+header p,
+main p,
 ol,
 ul,
 li {
   background-color: #152238;
-  font-size: 16px;
   color: #cbd5e1;
+  font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.2px;
 }
 
-/*ჩვეულებრივი ბმულები — GitHub და ელფოსტა*/
+/* ჩვეულებრივი ბმულები — GitHub და ელფოსტა */
 a {
-  background-color: #00000000;
+  background-color: transparent;
   color: #d4af37;
   font-size: 16px;
   letter-spacing: 0.2px;
   text-decoration: underline;
 }
 
+/* გვერდის ქვედა ნაწილი */
 footer {
   background-color: #080e19;
   color: #94a3b8;
